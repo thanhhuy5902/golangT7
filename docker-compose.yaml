@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tudye
+      MYSQL_USER: huy
+      MYSQL_PASSWORD: thanhhuy2002@
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/var/lib/mysql

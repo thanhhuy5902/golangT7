@@ -1,0 +1,15 @@
+[serviceweaver]
+name = "tudye"
+binary = "./core.exe"
+
+["cakho.com/tudye/internal/product/item/ItemRepository"]
+dsn = "root:Thanhhuy2002@@tcp(127.0.0.1)/tudye"
+
+["cakho.com/tudye/internal/product/categoryItem/CategoryItemRepository"]
+dsn = "root:Thanhhuy2002@@tcp(127.0.0.1)/tudye"
+
+["cakho.com/tudye/internal/product/category/CategoryRepository"]
+dsn = "root:Thanhhuy2002@@tcp(127.0.0.1)/tudye"
+
+["cakho.com/tudye/internal/user/UserRepository"]
+dsn = "root:Thanhhuy2002@@tcp(127.0.0.1)/tudye"

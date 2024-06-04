@@ -1,0 +1,6 @@
+appConfig: config.toml
+repo: docker.io/huy5902
+
+listeners:
+  - name: tudye
+    public: true
